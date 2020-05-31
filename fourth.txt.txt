@@ -1,0 +1,6 @@
+xercise on Javascript functions
+Write a JavaScript function that returns a passed string with letters in alphabetical    order(Use String functions)
+Example string : 'webmaster' 
+Expected Output : 'abeemrstw'
+2. Exercise on installation of modules
+Install chalk module into an application and display the text in various formats by using functions of chalk. (See Youtube video sent in Google class room).
