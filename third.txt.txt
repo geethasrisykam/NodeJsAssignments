@@ -1,0 +1,9 @@
+npm cache clean --force
+npm install -g @angular/cli --force
+
+
+ng serve --o
+
+url --> https://restcountries.eu/rest/v2/all  (to display all countries)
+
+url --> http://localhost:8080/RESTAPI/webapi/myresource/GetEmployeeJ  ( )
