@@ -1,0 +1,47 @@
+1. Exercise on Javascript functions
+Write a JavaScript function that returns a passed string with letters in alphabetical    order(Use String functions)
+Example string : 'webmaster' 
+Expected Output : 'abeemrstw'
+2. Exercise on installation of modules
+Install chalk module into an application and display the text in various formats by using functions of chalk. (See Youtube video sent in Google class room).
+3.  Exercise on Java Script Object
+Create an object named myPenguin with properties name, origin and livingarea.
+Use console.log() to print the penguin's name to the console as part of a welcome message, like "Hello, I'm a penguin and my name is [NAME HERE]!"
+Write another line of code that adds a new property to your penguin called canFly and set it to false. (Note: Don't modify your penguin-creation code that you wrote above! Do this step in a separate line of code. Syntax : object.property=value)
+Add a method to your penguin called chirp that prints to the console: "CHIRP CHIRP! Is this what penguins sound like?" (Note: Again, don't modify your previous code! Do this step by writing a new line of code.)
+Add another method to your penguin called sayHello that prints to the console the same message from step 2 above. But this time, be sure to use this keyword to access your penguin's name, so that way the sayHello method could potentially work.
+Next, call your penguin's sayHello() method and make sure that it works! 
+Without modifying any of your previous code, change the penguin's name to "Penguin McPenguinFace" and then call your penguin's sayHello() function one more time to make sure it still works.
+Write another method called fly, and inside that method, use an if / else statement to print "I can fly!" to the console if your penguin's canFly property is true, or "No flying for me!" if its canFly property is false.
+Call your penguin's fly() method and make sure it works!
+Change the canFly property to true -- again, without modifying any of your previous code!
+Now call your penguin's fly() method again and make sure it works as expected!
+Write a for ... in loop to print each property name to the console. (for (property in objectname) {   console.log(property);})
+Write another for ... in loop to print the value of each property to the console. (Hint: You'll need to use bracket notation to access the values this way, instead of dot notation!)
+4. Exercise on Callback functions
+Create a function validateUser () with three parameters username, password and one callback function as arguments to validate the user credentials. validateUser() calls the callback function by passing either true or false based on user credentials. The definition of callback function is to display proper message based on the result given by validateUser().
+
+
+
+5. Exercise on Git
+Now that you have learned the basics of Git workflow, try running through these couple of commands on your own:
+Sets the user name for git using command git config  - -global user.name "your name"
+Sets the email for git using command git config  - -global user.email "your email"
+Create a folder called learn_git_again.
+cd into the learn_git_again folder.
+Create a file called third.txt with random text. 
+Initialize an empty git repository. 
+Add third.txt to the staging area.
+Commit with the message "adding third.txt".
+Check out your commit with git log.
+Create another file called fourth.txt with random text.
+Add fourth.txt to the staging area.
+Commit with the message "adding fourth.txt"
+Remove the third.txt file
+Add this change to the staging area
+Commit with the message "removing third.txt"
+Check out your commits using git log
+Create remote repository using your credentials at github website
+Export the local repository contents into remote repository
+Create new folder and initialize an empty git repository.
+Download the contents from remote repository into local repository.
